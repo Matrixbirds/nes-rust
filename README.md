@@ -25,7 +25,15 @@ learn rust and nest protocol
     * Controllers
         * from classic NES controller or NES mouse.
 
-    * Catridge (mappers)
+    * Cartidge (mappers)
         * its mean ROMsm (sometimes own battery-backed RAM, or own audio processing unit)
         * the dynamically maps ROM/RAM into CPU and PPU memory space, bypassing the limitation of 16-bit address space.
-        * Some catridge come with more than 256kb of CHR ROM and swap/map portion of it on demand
+        * Some cartidge come with more than 256kb of CHR ROM and swap/map portion of it on demand
+
+#### NES Simulator Design
+    * CPU
+    * PPU
+    * APU
+    * iNES
+    * Controller
+    * Mappers
